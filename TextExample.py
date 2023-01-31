@@ -39,7 +39,7 @@ And now thinks he's a %s.""" % (one, two, three, four)
 print("5.3")
 print(poem)
 
-#Task 5.4 and 5.5
+#Task 5.4 & 5.5
 letter = "Dear {salutation} {name},\n\n" \
          "Thank you for your letter. We are sorry " \
          "that our {product} {verbed} in your {room}.\n" \
@@ -57,3 +57,18 @@ letter = "Dear {salutation} {name},\n\n" \
 
 print("\n5.4 & 5.5")
 print(letter)
+
+#Task 5.6 - 5.8
+duck = "Duck"
+pumpkin = "Pumpkin"
+spitz = "Spitz"
+
+resultOldStyle = "%sy Mc%sface \n%sy Mc%sface \n%sy Mc%sface\n " % (duck, duck, pumpkin, pumpkin, spitz, spitz)
+resultNewStyle = "{}y Mc{}face \n{}y Mc{}face " \
+                 "\n{}y Mc{}face\n".format(duck, duck, pumpkin, pumpkin,spitz, spitz)
+resultFStyle = f"{duck}y Mc{duck}face \n{pumpkin}y Mc{pumpkin}face " \
+               f"\n{spitz}y Mc{spitz}face"
+print("\n5.6 - 5.8")
+print(resultOldStyle)
+print(resultNewStyle)
+print(resultFStyle)
