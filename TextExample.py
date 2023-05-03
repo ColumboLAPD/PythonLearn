@@ -1,5 +1,5 @@
-#Introducing Python. Bill Lubanovic
-#Task 5.1
+# Introducing Python. Bill Lubanovic
+# Task 5.1
 
 song = """When an eel grabs your arm,
 And it causes great harm,
@@ -8,7 +8,7 @@ That's - a moray!"""
 print("5.1")
 print(song[-6:-1].capitalize())
 
-#Task 5.2
+# Task 5.2
 
 questions = ["We don't serve strings around here. Are you a string?",
              "What is said on Father's Day in the forest?",
@@ -26,7 +26,7 @@ print(str(enter[0]))
 print(str(enter[1]))
 print(str(enter[2]))
 
-#Task 5.3
+# Task 5.3
 one = "roast beef"
 two = "ham"
 three = "head"
@@ -39,7 +39,7 @@ And now thinks he's a %s.""" % (one, two, three, four)
 print("5.3")
 print(poem)
 
-#Task 5.4 & 5.5
+# Task 5.4 & 5.5
 letter = "Dear {salutation} {name},\n\n" \
          "Thank you for your letter. We are sorry " \
          "that our {product} {verbed} in your {room}.\n" \
@@ -58,7 +58,7 @@ letter = "Dear {salutation} {name},\n\n" \
 print("\n5.4 & 5.5")
 print(letter)
 
-#Task 5.6 - 5.8
+# Task 5.6 - 5.8
 duck = "Duck"
 pumpkin = "Pumpkin"
 spitz = "Spitz"
@@ -68,7 +68,7 @@ resultNewStyle = "{}y Mc{}face \n{}y Mc{}face " \
                  "\n{}y Mc{}face\n".format(duck, duck, pumpkin, pumpkin,spitz, spitz)
 resultFStyle = f"{duck}y Mc{duck}face \n{pumpkin}y Mc{pumpkin}face " \
                f"\n{spitz}y Mc{spitz}face"
-print("\n5.6 - 5.8")
+print("\n5.6-5.8")
 print(resultOldStyle)
 print(resultNewStyle)
 print(resultFStyle)

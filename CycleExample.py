@@ -1,5 +1,5 @@
-#Introducing Python. Bill Lubanovic
-#Task 6.1
+# Introducing Python. Bill Lubanovic
+# Task 6.1
 print('6.1')
 numbers = [3, 2, 1, 0]
 for i in numbers:
@@ -10,7 +10,7 @@ print()
 for i in range(3, -1, -1):
     print(i)
 
-#Task 6.2
+# Task 6.2
 print('\n6.2')
 guess_me = 7
 number = 1
@@ -24,7 +24,7 @@ while number <= guess_me:
         print("Oops!")
     number += 1
 
-#Task 6.3
+# Task 6.3
 print('\n6.3')
 guess_me = 5
 for number in range(10):
@@ -32,7 +32,7 @@ for number in range(10):
         print("Too low")
     elif number == guess_me:
         print("Fount it!")
-        #break
+        # break
     else:
         print("Oops!")
         break
